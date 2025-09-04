@@ -20,9 +20,16 @@ public class stackpush {
     }
     public static void main(String args []) {
         push(34);
+        push(54);
+        push(37);
+        push(90);
+        push(73);
+        push(28);
+        push(23);
         System.out.println("Stack Elements:");
         for(int i = 0; i <= top; i++) {
             System.out.println("Stack["+i+"] = "+stack[i]);
         }
     }
 }
+
